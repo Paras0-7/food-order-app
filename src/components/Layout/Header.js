@@ -6,7 +6,7 @@ export const Header = function (props) {
     <>
       <header className={styles.header}>
         <h1>ReactMeals</h1>
-        <CartButton />
+        <CartButton onClick={props.onShowCart} />
       </header>
       <div className={styles["main-image"]}>
         <img src={mealsImg} alt="A table " />
