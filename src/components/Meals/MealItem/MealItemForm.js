@@ -6,7 +6,7 @@ export const MealItemForm = function (props) {
       <Input
         label="Amount"
         input={{
-          id: "amount",
+          id: "amount_" + props.id,
           type: "number",
           min: "1",
           max: "5",
